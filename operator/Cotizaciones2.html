@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <title>ACME</title>
+  <link rel='stylesheet' href='../css/mainCotizaciones.css' />
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="abrir.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body { background:#026776;}
+
+    #customers {
+      font-family: 'Marcellus', serif;
+      font-size: 60%;
+      color:Black;
+      width: 100%;
+    }
+
+    #customers td, #customers th {
+      border: 1px solid #ddd;
+      padding: 15px;
+      width: 350px;
+    }
+
+    #customers tr:nth-child(even){background-color: #5eaab2;}
+
+    #customers tr:hover {background-color: #ddd;}
+
+    #customers th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: white;
+      color: Black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class='page'>
+    <div class='section menu'>
+      <ul class="navigation">
+        <li><div class='logo'>acme s.a.s.</div></li>
+        <li><a href="../operator/Productos.html">Productos</a></li>
+        <li><a href="../operator/Clientes.html">Clientes</a></li>
+
+        <li><a style="color:#026776" href="../operator/Cotizaciones.html">Cotizaciones</a></li>
+        <!--  <li><img src='images/finger.png' />Diomedes</li> -->
+      </ul>
+    </div>
+    <div class='section2'>
+
+          <div class="section3 sheet">
+                <div class="sidebar abrir">
+                    <ul>
+                      <h2>Diomedes</h2>
+                      <h3>🥈 operator</h3>
+                      <li><a href="#">🅘 Imprimir</a></li>
+                      <li><a href="../operator/CotizacionesLista.html">✎ Cotizciones</a></li>
+                      <li><a href="../operator/CotizacionesOrdenes.html">֎ Ordenes de trabajo</a></li>
+                    </ul>
+                </div>
+                <div class="contenido ">
+                    <img src="../images/menud.png" class="menu-bar">
+                </div>
+                <div class="espacio"></div>
+
+                <div class="formulario">
+                  <div class="seccion1">
+                      <div class="texto">Nombre: </div><input type="text"  id="usuario" />
+                      <div class="texto">Idetificación: </div><input type="text" id="id"/>
+                      <div class="texto">Fecha de cotización: </div><input type="text" id="date"/>
+                      <div class="texto">Servicios: </div><input type="text" id="services" />
+
+                      <div class="pago">
+                          <div class="texto">Metodo de pago: </div>
+                          <button style='font-size:24px'><i class='fab fa-cc-mastercard'></i></button>
+                          <button style='font-size:24px'><i class='fab fa-cc-diners-club'></i></button>
+                          <button style='font-size:24px'><i class='fab fa-cc-amex'></i></button>
+                          <button style='font-size:24px'><i class='	fab fa-cc-amazon-pay'></i></button>
+                          <button style='font-size:24px'><i class='	fab fa-apple-pay'></i></button>
+                      </div>
+
+                  </div>
+                  <div class="seccion2">
+                    <div class="texto">Responsable: </div><input type="text" id="seller" />
+                    <h2>Estado:</h2>
+                    <div class="w3-light-grey">
+                    <div class="w3-container w3-green w3-center" style="width:100%">100%</div>
+                    </div><br>
+                    <div class="seccionb">
+
+                      <button class="btn"><i class="fa fa-download"></i> Guardar</button>
+                      <button class="btn"><i class="fa fa-download"></i> Guardar e Imprimir</button>
+                      <button class="btn"><i class="fa fa-download"></i> Ordenar trabajo</button>
+                    </div>
+                  </div>
+                </div>
+
+
+          </div>
+      </div>
+
+
+    </div>
+
+
+
+  <script src="abrir.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <title>ACME</title>
+  <link rel='stylesheet' href='../css/mainClientes.css' />
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="abrir.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+
+  <style>
+    body { background:#026776;}
+    #customers {
+      font-family: 'Marcellus', serif;
+      font-size: 60%;
+      color:Black;
+      width: 100%;
+    }
+
+    #customers td, #customers th {
+      border: 1px solid #ddd;
+      padding: 15px;
+      width: 350px;
+    }
+
+    #customers tr:nth-child(even){background-color: #5eaab2;}
+
+    #customers tr:hover {background-color: #ddd;}
+
+    #customers th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: white;
+      color: Black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class='page'>
+    <div class='section menu'>
+      <ul class="navigation">
+        <li><div class='logo'>acme s.a.s.</div></li>
+        <li><a href="../admin/Productos.html">Productos</a></li>
+        <li><a style="color:#026776" href="../admin/Clientes.html">Clientes</a></li>
+        <li><a href="../admin/Proveedores.html">Proveedores</a></li>
+        <li><a href="../admin/Cotizaciones.html">Cotizaciones</a></li>
+        <!--  <li><img src='images/finger.png' />Diomedes</li> -->
+      </ul>
+    </div>
+    <div class='section2'>
+
+          <div class="section3 sheet">
+                <div class="sidebar abrir">
+                    <ul>
+                      <h2>Diomedes</h2>
+                      <h3>🥇 Admin</h3>
+                      <li><a href="../admin/ClientesBuscar.html">？Buscar</a></li>
+                      <li><a href="../admin/ClientesModificar.html">✎ Modificar</a></li>
+                      <li><a href="../admin/ClientesEliminar.html">✘ Eliminar</a></li>
+                    </ul>
+                </div>
+                <div class="contenido ">
+                    <img src="../images/menud.png" class="menu-bar">
+                </div>
+
+                  <div class="espacio"></div>
+
+                  <div class="tabla" style="overflow-x:auto;">
+
+                    <table id="customers">
+                        <tr>
+                          <th>🙎‍</th>
+                          <th>NOMBRE DE CLIENTE</th>
+                          <th>IDENTIFICACIÓN</th>
+                          <th>CARTERA</th>
+                          <th>ORDENES DE TRABAJO</th>
+                        </tr>
+                        <tr>
+                          <td>🙎‍♂️</td>
+                          <td>Alfreds Futterkiste</td>
+                          <td>101</td>
+                          <td>10000</td>
+                          <td>2</td>
+                        </tr>
+                        <tr>
+                          <td>🙎‍♂️</td>
+                          <td>Berglunds snabbköp</td>
+                          <td>101</td>
+                          <td>20000</td>
+                          <td>3</td>
+                        </tr>
+                        <tr>
+                          <td>🙎‍♂️</td>
+                          <td>Centro comercial Moctezuma</td>
+                          <td>103</td>
+                          <td>100000</td>
+                          <td>2</td>
+                        </tr>
+                        <tr>
+                          <td>🙎‍♂️</td>
+                          <td>Ernst Handel</td>
+                          <td>104</td>
+                          <td>500</td>
+                          <td>1</td>
+                        </tr>
+                        <tr>
+                          <td>🙎‍♂️</td>
+                          <td>Island Trading</td>
+                          <td>105</td>
+                          <td>4500</td>
+                          <td>5</td>
+                        </tr>
+                        <tr>
+                          <td>🙎‍♂️</td>
+                          <td>Königlich Essen</td>
+                          <td>106</td>
+                          <td>0</td>
+                          <td>10</td>
+                        </tr>
+                        <tr>
+                          <td>🙎‍♂️</td>
+                          <td>Laughing Bacchus Winecellars</td>
+                          <td>107</td>
+                          <td>67250</td>
+                          <td>4</td>
+                        </tr>
+                        <tr>
+                          <td>🙎‍♂️</td>
+                          <td>Magazzini Alimentari Riuniti</td>
+                          <td>108</td>
+                          <td>3300</td>
+                          <td>2</td>
+                        </tr>
+                        <tr>
+                          <td>🙎‍♂️</td>
+                          <td>North/South</td>
+                          <td>109</td>
+                          <td>55000</td>
+                          <td>4</td>
+                        </tr>
+                        <tr>
+                          <td>🙎‍♂️</td>
+                          <td>Paris spécialités</td>
+                          <td>110</td>
+                          <td>20000</td>
+                          <td>15</td>
+                        </tr>
+                      </table>
+                </div>
+          </div>
+
+    </div>
+
+  </div>
+
+  <script src="abrir.js"></script>
+</body>
+
+</html>
